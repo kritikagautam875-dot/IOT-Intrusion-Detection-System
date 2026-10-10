@@ -1,0 +1,27 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Dataset files - keep large data out of GitHub
+dataset/
+*.csv
+
+# Generated model files
+*.pkl
+*.joblib
+
+# Local experiment outputs
+mlruns/
+mlflow.db
+
+# IDE and OS
+.vscode/
+.DS_Store
+Thumbs.db
