@@ -1,0 +1,20 @@
+{
+  "dataset": "CICIoT2023 test split",
+  "test_rows": 1176851,
+  "feature_count": 44,
+  "class_count_in_model": 34,
+  "accuracy": 0.9792446112549507,
+  "macro_precision": 0.655227051797282,
+  "macro_recall": 0.653725355209861,
+  "macro_f1": 0.6514997418160442,
+  "weighted_f1": 0.9807810805252847,
+  "prediction_seconds": 4.07,
+  "sklearn_version": "1.9.1",
+  "selected_parameters": {
+    "max_iter": 100,
+    "max_leaf_nodes": 31,
+    "learning_rate": 0.1
+  },
+  "training_rows_used": 5491971,
+  "random_seed": 42
+}

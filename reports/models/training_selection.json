@@ -1,0 +1,43 @@
+{
+  "selected_parameters": {
+    "max_iter": 100,
+    "max_leaf_nodes": 31,
+    "learning_rate": 0.1
+  },
+  "best_validation_macro_f1": 0.6515796511396743,
+  "candidates": [
+    {
+      "candidate": 1,
+      "parameters": {
+        "max_iter": 100,
+        "max_leaf_nodes": 15,
+        "learning_rate": 0.1
+      },
+      "validation_macro_f1": 0.6508355212021296,
+      "validation_weighted_f1": 0.982643608901835,
+      "validation_accuracy": 0.9819008523593896,
+      "fit_seconds": 116.55,
+      "iterations_used": 11
+    },
+    {
+      "candidate": 2,
+      "parameters": {
+        "max_iter": 100,
+        "max_leaf_nodes": 31,
+        "learning_rate": 0.1
+      },
+      "validation_macro_f1": 0.6515796511396743,
+      "validation_weighted_f1": 0.9809770242635895,
+      "validation_accuracy": 0.9794485453128731,
+      "fit_seconds": 260.03,
+      "iterations_used": 11
+    }
+  ],
+  "constant_features_removed": [
+    "Telnet",
+    "IRC"
+  ],
+  "feature_count": 44,
+  "training_rows_used": 5491971,
+  "debug_subset_run": false
+}
